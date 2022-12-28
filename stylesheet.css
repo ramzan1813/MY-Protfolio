@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    
+    background: radial-gradient( rgb(212, 24, 24), rgb(38, 219, 180));
+}
+.container{
+    height: 99.5vh;
+    display: flex;
+}
+.ul{
+    margin: auto;
+    list-style: none;
+   width: 20%;
+   text-align: center;
+}
+.ul li a{
+    color: black;
+    text-decoration: none;
+}
+.ul li{
+    margin: 5px;
+    padding:10px 0px;
+    background-color: aliceblue;
+    border:1px solid aliceblue ; 
+    border-radius: 20px;
+    width: 5wh;
+    font-size: 22px;
+}
+.ul li:hover{
+    border:1px solid antiquewhite ; 
+    background-color: antiquewhite;
+}
