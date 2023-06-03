@@ -1,0 +1,144 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+body {
+
+    max-width: 1415px;
+    margin: auto;
+}
+
+.nav {
+    padding: .5rem;
+    background-color: gray;
+    max-width: 2000px;
+}
+
+.nav>ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    font-size: 24px;
+}
+
+.nav>ul>li {
+    padding: .5rem;
+}
+
+.nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+    margin: 0 2rem;
+    padding: .5rem;
+}
+
+.nav>ul>li>a:hover {
+    background-color: aliceblue;
+    opacity: 50%;
+    border-radius: 5px;
+    color: darkslategray;
+}
+
+.hero {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 4px so/lid blueviolet; */
+}
+
+
+
+
+.hero>figure>img {
+    height: auto;
+    min-width: 100px;
+    display: block;
+    filter: grayscale(60%);
+}
+
+.intro {
+    margin: 1.5rem;
+
+    min-width: 261px;
+}
+
+.intro>p {
+    padding: .5rem;
+    font-size: 1rem;
+    max-width: 390px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-size: 26px;
+    gap: 15px;
+}
+
+.icons>a>i:hover {
+
+    color: #1aca29;
+    cursor: pointer;
+}
+
+.icons>a>i {
+    padding: 5px;
+}
+
+.icons>a {
+    color: #000;
+}
+
+.fiverr:hover {
+    fill: #1aca29;
+}
+
+.contact {
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+
+}
+
+.container {
+    height: 99.5vh;
+    display: flex;
+}
+
+.ul {
+    margin: auto;
+    list-style: none;
+    width: 30rem;
+    text-align: center;
+}
+
+.ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.ul li {
+    margin: 5px;
+    padding: 10px 0px;
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 20px;
+    width: 5wh;
+    font-size: 22px;
+}
+
+.ul li:hover {
+    border: 1px solid antiquewhite;
+    background-color: antiquewhite;
+}
+
+@media only screen and (max-width: 650px) {
+    .ul {
+        width: 22rem;
+    }
+}
