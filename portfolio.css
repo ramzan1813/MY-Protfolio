@@ -175,13 +175,17 @@ p{
     flex-direction: column;
     justify-self: center;
     align-items: center;
-}
-.sample-work{
+  }
+  .sample-work{
+    justify-content: space-around;
     margin: 3%;
+    display: flex;
+    justify-content: space-around;
 }
 .sample-work>img{
     display: block;
-    width: 320px;
+    margin: 1.5rem;
+    width: 420px;
     height: auto;
 
 }
