@@ -12,17 +12,7 @@ body {
   margin: auto;
   max-width: 1750px;
 }
-.center{
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  /* border: #1aca29 solid 2px; */
-  align-items: center;
-  font-size: large;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  color:#666666
-}
+
 h1 {
   color: #666666;
   font-size: 30px;
@@ -238,19 +228,7 @@ margin: 0 .5rem;
   margin: 0.5rem;
   font-size: 0.8rem;
 }
-.btn > button {
-  background-color: #ff4d4f !important;
-  border: none;
-  margin:0.3rem auto;
-  background-color: transparent!;
-  padding: 0.5rem;
-  width: 15rem;
-  color: white;
-  border-radius: 10px;
-  /* font-family: Georgia, "Times New Roman", Times, serif; */
-  font-weight: bold;
-  cursor: pointer;
-}.btn-a{
+.btn-a{
   display: block;
   background-color: #38c54b !important;
   border: none;
@@ -268,16 +246,6 @@ margin: 0 .5rem;
 }
 .btn-a:hover{
   background-color: #ff0004;
-}
-.privacy{
-  margin: 5px 15rem;
-}
-.contant-tab{
-  margin :1rem .5rem ;
-  
-}
-.contant-tab>ol{
-  padding: .5rem 1.5rem;
 }
 @media only screen and (max-width: 650px) {
   .ul {
