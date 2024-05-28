@@ -38,3 +38,12 @@ width: 30rem;
         width: 22rem;
     }
 }
+@media only screen and (max-width: 400px) {
+    body {
+        width: 400px;
+        background-color: brown;
+    }
+    .nav{
+        width: 400px;
+    }
+}
