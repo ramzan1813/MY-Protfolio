@@ -254,7 +254,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   .ul {
     width: 12rem;
   }
@@ -283,24 +283,24 @@ p {
   .hero>figure {
     display: flex;
     flex-direction: column;
-    height: 40vh;
+    height: 35vh;
     position: relative;
-    left: -165px;
-    clip-path: inset(0 0px 0 110px);
+    left: -124px;
+    clip-path: inset(0 0px 0 90px);
   }
 
   .hero>figure>img {
     height: auto;
     max-width: 100%;
     min-width: 260px;
-    object-position: 29px 0;
+    object-position: 20px 0;
     filter: grayscale(60%);
   }
   .intro{
     margin: 1rem ;
   }
   .hero-container{
-    margin-right: 30px;
+    margin-right: 20px;
   }
   h1 {
     font-size: 20px;
