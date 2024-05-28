@@ -254,7 +254,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 470px) {
   .ul {
     width: 12rem;
   }
@@ -285,7 +285,7 @@ p {
     flex-direction: column;
     height: 35vh;
     position: relative;
-    left: -124px;
+    left: -83px;
     clip-path: inset(0 0px 0 90px);
   }
 
@@ -310,5 +310,8 @@ p {
   }
   .product-card{
     margin: 0.4rem 0;
+  }
+  .icons{
+    margin-top: 1rem;
   }
 }
