@@ -54,6 +54,7 @@
             <b> upwork</b> or <b>fiverr</b> and if you want to know more about
             me check my social media accounts.
           </p>
+          
         <!-- </div> -->
         <div class="icons">
           <a href="https://www.instagram.com/ramzan.1813"><i class="fa fa-instagram"> </i></a>
@@ -107,7 +108,18 @@
         <p>Language: <b>English</b> (Conventional), <b>Urdu</b> (Native)</p>
       </div>
     </section>
+    <section class="contact btn-a">
+      <a onclick="downloadCV()">Download CV</a>
+    </section>
   </section>
+  <script>
+    function downloadCV() {
+      const link = document.createElement('a');
+      link.href = 'documents/MRK CDE one year.pdf';
+      link.download = 'Muhammad_Ramzan_Khan_CV.pdf';
+      link.click();
+    }
+  </script>
 </body>
 
 </html>
